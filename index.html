@@ -10,7 +10,20 @@ body {background-color: powderblue;}
 <h1 style="background-color:DodgerBlue;">ARS®</h1>
 <p style="background-color:MediumSeaGreen;">Smoke Weed Every Day!</p>
 <img src="wweedd.jpeg" alt="K-HOLE" style="width:500px;height:500px;">
-<p><a href="linux.html">Linux</a></p>
+<form action="/action_page.php">
+  <label for="cars">Drop Me Down!</label>
+  <select name="menu" id="menu">
+    <option value="volvo">Linux</option>
+    <option value="saab">Gaming</option>
+    <option value="opel">Weed</option>
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<p>Click the "Submit" button and the form-data will be sent to a page on the 
+server called "action_page.php".</p>
+
 
 </body>
 </html>
